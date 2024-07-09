@@ -1,0 +1,19 @@
+nome = str(input('Qual o nome do seu herói?:'))
+Qtd_xp = int(input('Qual é o nivel de experiência do seu héroi?:'))
+
+if Qtd_xp <= 1000:
+    print('O herói', (nome),'está no nivel Bronze')
+elif Qtd_xp > 1001 and Qtd_xp < 2000:
+    print('O herói' , (nome), 'está no nivel Bronze')  
+elif Qtd_xp > 2001 and Qtd_xp <5000:
+    print('O herói' , (nome),'está no nivel Prata')  
+elif Qtd_xp > 5001 and Qtd_xp < 7000:
+    print('O herói' , (nome), 'está no nivel Ouro')  
+elif Qtd_xp > 7001 and Qtd_xp < 8000:
+    print('O herói ' , (nome), 'está no nivel Platina')  
+elif Qtd_xp > 8001 and Qtd_xp < 9000:
+    print('O herói' , (nome), 'está no nivel Ascendente')  
+elif Qtd_xp > 9001 and Qtd_xp < 10000:
+    print('O herói ', (nome), 'está no nivel Imortal')  
+elif Qtd_xp >= 10001:
+    print('O herói' , (nome),'está no nivel Radiante')  
